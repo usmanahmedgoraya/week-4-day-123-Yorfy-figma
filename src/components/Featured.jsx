@@ -1,10 +1,10 @@
 import React from "react";
 import { Box, Stack, Typography, ImageListItem } from "@mui/material";
-import theme from "../../MUItheme";
-import Heading from "../Heading";
-import FeaturedImage from "../../assets/Featured/featured.png";
-import Logo from "../../assets/Navbar/Logo.svg";
-import Button from "../Button";
+import theme from "../MUItheme";
+import Heading from "./Heading";
+import FeaturedImage from "../assets/Featured/featured.png";
+import Logo from "../assets/Navbar/Logo.svg";
+import Button from "./Button";
 
 const Featured = () => {
   const colors = theme.palette;

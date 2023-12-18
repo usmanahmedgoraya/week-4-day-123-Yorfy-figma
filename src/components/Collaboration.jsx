@@ -1,11 +1,11 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
-import logo1 from "../../assets/collaboration/Logo-1.svg";
-import logo2 from "../../assets/collaboration/Logo-2.svg";
-import logo3 from "../../assets/collaboration/Logo-3.svg";
-import logo from "../../assets/collaboration/Logo.svg";
-import theme from "../../MUItheme";
-import Heading from "../Heading";
+import logo1 from "../assets/collaboration/Logo-1.svg";
+import logo2 from "../assets/collaboration/Logo-2.svg";
+import logo3 from "../assets/collaboration/Logo-3.svg";
+import logo from "../assets/collaboration/Logo.svg";
+import theme from "../MUItheme";
+import Heading from "./Heading";
 
 const Collaboration = () => {
   const colors = theme.palette;

@@ -1,8 +1,8 @@
 import React from "react";
 import { Typography, Stack, Grid, Box } from "@mui/material";
-import theme from "../../MUItheme";
-import Heading from "../Heading";
-import Buttton from "../Button";
+import theme from "../MUItheme";
+import Heading from "./Heading";
+import Buttton from "./Button";
 
 const CommunitySlider = () => {
   const colors = theme.palette;

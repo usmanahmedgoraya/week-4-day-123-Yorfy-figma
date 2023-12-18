@@ -1,8 +1,8 @@
 import React from "react";
 import { Stack, Box, Typography, Container } from "@mui/material";
-import theme from "../../MUItheme";
-import faces from "../../assets/Main/faces.png";
-import Buttton from "../Button";
+import theme from "../MUItheme";
+import faces from "../assets/Main/faces.png";
+import Buttton from "./Button";
 const Main = () => {
   const colors = theme.palette;
   return (
@@ -47,7 +47,7 @@ const Main = () => {
               variant="h1"
               fontSize={{ xs: "2rem", sm: "3rem", md: "4rem" }}
             >
-              Now Available, Meet Yorfy NFT Collection ⭐️
+              Now Available, Meet Yorfy NFT Collection
             </Typography>
             <Typography sx={{ fontWeight: 200 }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

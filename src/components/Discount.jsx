@@ -1,6 +1,6 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
-import theme from "../../MUItheme";
+import theme from "../MUItheme";
 
 const Discount = () => {
   const colors = theme.palette;

@@ -5,9 +5,9 @@ import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
-import theme from "../../MUItheme";
-import DropDownMenu from "../Dropdown/DropdownMenu";
-import LogoComponent from "../LogoComponent";
+import theme from "../MUItheme";
+import DropDownMenu from "./Dropdown/DropdownMenu";
+import LogoComponent from "./LogoComponent";
 
 const pages = ["Home", "NFT", "Roadmap", "About Us", "Contact Us", "Pages"];
 

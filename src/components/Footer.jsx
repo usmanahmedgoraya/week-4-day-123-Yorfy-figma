@@ -1,7 +1,7 @@
 import { Stack, Typography } from "@mui/material";
 import React from "react";
-import theme from "../../MUItheme";
-import LogoComponent from "../LogoComponent";
+import theme from "../MUItheme";
+import LogoComponent from "./LogoComponent";
 
 const socialMedia = ["Fb", "Lg","Li", "Yt"];
 const Footer = () => {

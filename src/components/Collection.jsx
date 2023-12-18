@@ -1,11 +1,11 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
-import image1 from "../../assets/collection/centerImage.png";
-import image4 from "../../assets/collection/six faces 1.png";
-import image2 from "../../assets/collection/thirdImage.png";
-import theme from "../../MUItheme";
-import LogoWithText from "../LogoComponent";
-import Heading from "../Heading";
+import image1 from "../assets/collection/centerImage.png";
+import image4 from "../assets/collection/six faces 1.png";
+import image2 from "../assets/collection/thirdImage.png";
+import theme from "../MUItheme";
+import LogoWithText from "./LogoComponent";
+import Heading from "./Heading";
 
 const Collection = () => {
   const colors = theme.palette;

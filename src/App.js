@@ -3,16 +3,16 @@ import Container from "@mui/material/Container";
 import { ThemeProvider } from "@mui/material/styles";
 import React from "react";
 import "./App.css";
-import Collaboration from "./components/Collaboration/Collaboration";
-import Community from "./components/Community/Community";
-import Discount from "./components/Discount/Discount";
-import Featured from "./components/Featured/Featured";
-import Footer from "./components/Footer/Footer";
-import Main from "./components/Main/Main";
-import Navbar from "./components/Navbar/Navbar";
-import NewsLetter from "./components/Newsletter/NewsLetter";
-import Collection from "./components/collections/Collection";
 import theme from "./MUItheme";
+import Collaboration from "./components/Collaboration";
+import Community from "./components/Community";
+import Discount from "./components/Discount";
+import Featured from "./components/Featured";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
+import NewsLetter from "./components/NewsLetter";
+import Collection from "./components/Collection";
 function App() {
   const colors = theme.palette;
   return (

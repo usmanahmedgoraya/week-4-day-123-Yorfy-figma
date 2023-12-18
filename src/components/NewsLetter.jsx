@@ -1,8 +1,8 @@
 import { Stack, TextField, Typography } from "@mui/material";
 import React from "react";
-import theme from "../../MUItheme";
-import Buttton from "../Button";
-import Heading from "../Heading";
+import theme from "../MUItheme";
+import Buttton from "./Button";
+import Heading from "./Heading";
 
 const NewsLetter = () => {
   const colors = theme.palette;
